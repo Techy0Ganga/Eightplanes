@@ -1,4 +1,8 @@
+h1{
+    margin: 0px;
+}
 body{
+    font-family: "Nunito", sans-serif;
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -40,7 +44,10 @@ body{
 }
 
 .list p{
-    font-size: 13px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
     margin: 0px;
 }
 .list{
@@ -48,11 +55,11 @@ body{
     margin: 0px;
     background: #F9F9F9;
     border-radius: 39px;
-    justify-content: space-between;
+    justify-content: center;
     padding: 5px;
     display: flex;
     flex-flow: row;
-    width: 589px;
+    width: fit-content;
     height: 10px;
     padding-left: 52px;
     padding-right: 52px;
@@ -64,6 +71,7 @@ body{
     height: 50px;
 }
 .main{
+    margin-top: 200px;
     z-index: 3;
     align-items: center;
     justify-content: center;
@@ -71,6 +79,13 @@ body{
     flex-flow: column;
     height: fit-content;
     width: 1000px;
+}
+.main p{
+    margin: 0px;
+}
+.main h1{
+    font-weight: 800;
+    font-size: 68.68px;
 }
 .imgs{
     align-items: center;
@@ -84,24 +99,25 @@ body{
     margin-right: 10px;
     border-radius: 60px;
     background-color: #313131;
-    width: 1000px;
-    height: 500px;
+    width: 600px;
+    height: 400px;
 }
 .img_2{
     border-radius: 60px;
     background-color: #313131;
-    width: 440px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
 }
 .bottom_content{
-    height: 150px;
+    padding-bottom: 100px;
+    height: fit-content;
     width: 1000px;
     display: flex;
     flex-flow: row;
     justify-content: space-between;
 }
 .child_bottom_cont{
-    height: 300px;
+    height: fit-content;
     width: 600px;
     word-break: break-all;
     align-items: end;
@@ -112,6 +128,9 @@ body{
     display: flex;
     flex-flow: row;
     justify-content: space-between;
+}
+.achieve h1{
+    font-size: 50px;
 }
 .achieve div{
     text-align: center;
@@ -128,6 +147,9 @@ body{
     flex-flow: row;
     justify-content: space-between;
 }
+.our_mission h1{
+    font-size: 40px;
+}
 .mis_content{
     display: flex;
     justify-content: center;
@@ -143,4 +165,97 @@ body{
     background-color: #313131;
     height: 300px;
     width: 600px;
+}
+.story {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    height: fit-content;
+    width: 1000px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.story h1{
+    font-size: 40px;
+    margin-top: 0px;
+}
+.cards{
+    display: flex;
+    flex-flow: column;
+    width: 1000px;
+    height: fit-content;
+}
+.card_in{
+    margin-top: 50px;
+    width: 1000px;
+    height: fit-content;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+.card_content{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.icon{
+    border-radius: 10px;
+    margin-right: 20px;
+    background-color: #313131;
+    height: 70px;
+    width: 70px;
+}
+.para{
+    width: 320px;
+}
+.jobs{
+    justify-content: space-between;
+    display: flex;
+    flex-flow: row;
+    width: 1000px;
+    height: fit-content;
+}
+.job{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 500px;
+    height: fit-content;
+}
+.job_card{
+    border-width: 3px;
+    border-color: #313131;
+    border-radius: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    display: flex;
+    flex-flow: column;
+    width: 500px;
+    height: fit-content;
+}
+.pg{
+    width: 400px;
+    height: fit-content;
+}
+.title{
+    width: 500px;
+}
+.green_card{
+    background-color: #00ff84;
+    text-align: center;
+    border-width: 3px;
+    border-color: #313131;
+    border-radius: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    display: flex;
+    flex-flow: column;
+    width: 500px;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
 }
